@@ -2794,7 +2794,7 @@
     "@remix-run/router" "1.3.3"
     "react-router" "6.8.2"
 
-"react-router@6.8.2":
+"react-router@^6.8.2", "react-router@6.8.2":
   "integrity" "sha512-lF7S0UmXI5Pd8bmHvMdPKI4u4S5McxmHnzJhrYi9ZQ6wE+DA8JN5BzVC5EEBuduWWDaiJ8u6YhVOCmThBli+rw=="
   "resolved" "https://registry.npmjs.org/react-router/-/react-router-6.8.2.tgz"
   "version" "6.8.2"
