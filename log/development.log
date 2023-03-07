@@ -3313,3 +3313,100 @@ Processing by RootController#index as HTML
 Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 2843)
 
 
+Started GET "/" for 127.0.0.1 at 2023-03-07 11:14:07 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 308)
+  Rendered layout layouts/application.html.erb (Duration: 670.6ms | Allocations: 36215)
+Completed 200 OK in 702ms (Views: 683.0ms | ActiveRecord: 0.0ms | Allocations: 39442)
+
+
+Started GET "/api/v1/messages" for 127.0.0.1 at 2023-03-07 11:14:09 -0500
+Processing by Api::V1::MessagesController#index as JSON
+  [1m[36mMessage Load (1.9ms)[0m  [1m[34mSELECT "messages".* FROM "messages"[0m
+  ↳ app/controllers/api/V1/messages_controller.rb:3:in `index'
+Completed 200 OK in 28ms (Views: 1.6ms | ActiveRecord: 11.5ms | Allocations: 5552)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-07 11:14:10 -0500
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 2632)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 2929)
+
+
+Started GET "/api/v1/messages" for 127.0.0.1 at 2023-03-07 11:14:10 -0500
+Processing by Api::V1::MessagesController#index as JSON
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages"[0m
+  ↳ app/controllers/api/V1/messages_controller.rb:3:in `index'
+Completed 200 OK in 5ms (Views: 0.7ms | ActiveRecord: 0.5ms | Allocations: 895)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-07 11:14:11 -0500
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 2423)
+Completed 200 OK in 10ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 2685)
+
+
+Started GET "/api/v1/messages" for 127.0.0.1 at 2023-03-07 11:14:11 -0500
+Processing by Api::V1::MessagesController#index as JSON
+  [1m[36mMessage Load (0.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages"[0m
+  ↳ app/controllers/api/V1/messages_controller.rb:3:in `index'
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.4ms | Allocations: 834)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-07 11:14:12 -0500
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 2412)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 2670)
+
+
+Started GET "/api/v1/messages" for 127.0.0.1 at 2023-03-07 11:14:12 -0500
+Processing by Api::V1::MessagesController#index as JSON
+  [1m[36mMessage Load (0.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages"[0m
+  ↳ app/controllers/api/V1/messages_controller.rb:3:in `index'
+Completed 200 OK in 5ms (Views: 1.1ms | ActiveRecord: 0.4ms | Allocations: 823)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-07 11:14:13 -0500
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 2414)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 2676)
+
+
+Started GET "/api/v1/messages" for 127.0.0.1 at 2023-03-07 11:14:13 -0500
+Processing by Api::V1::MessagesController#index as JSON
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages"[0m
+  ↳ app/controllers/api/V1/messages_controller.rb:3:in `index'
+Completed 200 OK in 5ms (Views: 1.0ms | ActiveRecord: 0.5ms | Allocations: 834)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-07 11:14:13 -0500
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 2438)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms | Allocations: 2698)
+
+
+Started GET "/api/v1/messages" for 127.0.0.1 at 2023-03-07 11:14:13 -0500
+Processing by Api::V1::MessagesController#index as JSON
+  [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages"[0m
+  ↳ app/controllers/api/V1/messages_controller.rb:3:in `index'
+Completed 200 OK in 4ms (Views: 0.7ms | ActiveRecord: 0.3ms | Allocations: 821)
+
+
