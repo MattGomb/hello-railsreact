@@ -9,7 +9,7 @@ const App = () => {
   return (
     <Provider store={Store}>
       <Routes>
-        <Route path="/random" element={<Greeting />} />
+        <Route path="" element={<Greeting />} />
       </Routes>
     </Provider>
   );
